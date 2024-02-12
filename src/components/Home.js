@@ -7,7 +7,7 @@ export default function Home() {
   const val=parseInt(localStorage.getItem("score"));
   return (
     <>
-    { ques!= 0?(
+    { ques!== 0?(
       <Question  ques={ques} val={val}/>
     ) :
     (
